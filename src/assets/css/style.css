@@ -1,0 +1,118 @@
+/* ALL PAGES */
+#header{
+  margin-top: 40px;
+}
+.logo{
+  margin-top: -15px;
+  width: 15em;
+}
+/*CONTACTS LIST PAGE*/
+ .panel-default > .panel-heading{
+  
+  background-color: #000;
+  text-align: center;
+  padding: 15px;
+} 
+.panel-default > .panel-body{
+  text-align: center;
+  color:#8a8a8a;
+  border: 1px solid #ecebeb;
+}
+.panel-default{
+  margin-bottom: 25px;
+}
+.panel-heading a {
+  color: #fff;
+}
+.panel-body p{
+  padding-top: 10px;
+  margin-bottom: 0;
+}
+.panel-body p:last-child{
+  margin-bottom: 10px;
+}
+.page-title{
+  text-align: center;
+  font-weight: 700;
+  margin-top: 10%;
+}
+.page-title:after{
+  display: block;
+  height: 2px;
+  background-color: #ff0000;
+  content: " ";
+  width: 40px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.details-left{
+  text-align: right;
+  padding-right: 5%;
+  color: #8a8a8a;
+}
+.details-right{
+  color: #ff0000;
+}
+.details-name{
+  color: #333;
+}
+#main{
+  margin-top: 50px;
+}
+.user-panels{
+  margin-top: 5%;
+}
+#footer{
+  text-align: center;
+}
+.copy{
+  text-align: center;
+}
+.add-button{
+  position: absolute;
+  bottom: -80px;
+  right: 0px;
+  color:#ff0000;
+  font-size: 60px;
+}
+.add-button:hover{
+  color:#ff0000;
+}
+
+.bottom-buffer{
+  margin-bottom: 1%;
+}
+.controls{
+  text-align: center;
+  margin-top:5%;
+  margin-bottom: 10%;
+}
+.del-button{
+  color: #ff0000;
+  border: 1px solid #ff0000;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.ctrl-button{
+  color: #333;
+  border: 1px solid #333;
+  background-color: #fff;
+  border-radius: 3px;
+  margin-right: 15px;
+}
+.edit-user-section .user-panels input.form-control{
+  width: 45%;
+}
+#user-list{
+  position: relative;
+}
+.error{
+  color: #ff0000;
+}
+
+@media screen and (max-width: 600px) {
+  .details-left{
+  text-align: left;
+  }
+}
